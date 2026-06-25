@@ -63,5 +63,5 @@ google-drive
 "
 
 # GUIパッケージのインストール
-brew install $PACKAGE_GUI
+brew install --cask $PACKAGE_GUI
 
