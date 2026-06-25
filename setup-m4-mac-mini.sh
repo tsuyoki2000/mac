@@ -10,9 +10,27 @@ brew update && brew upgrade
 ##################
 # インストールするパッケージ
 PACKAGE="
+neovim
+starship
+fish
+yazi
+git
 curl
+wget
 eza
+fd
+fzf
+jq
+ripgrep
+htop
 fastfetch
+ncdu
+translate-shell
+tgpt
+yt-dlp
+syncthing
+ffmpeg
+openjdk
 "
 
 # パッケージのインストール
