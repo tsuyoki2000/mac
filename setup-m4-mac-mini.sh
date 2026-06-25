@@ -9,7 +9,7 @@ brew update && brew upgrade
 # インストール（Formulae）
 ##################
 # インストールするパッケージ
-PACKAGE="
+PACKAGE_CLI="
 neovim
 starship
 fish
@@ -34,4 +34,4 @@ openjdk
 "
 
 # パッケージのインストール
-brew install $PACKAGE
+brew install $PACKAGE_CLI
