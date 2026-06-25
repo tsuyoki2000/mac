@@ -8,7 +8,7 @@ brew update && brew upgrade
 ##################
 # インストール（Formulae）
 ##################
-# インストールするパッケージ
+# インストールするCLIパッケージ
 PACKAGE_CLI="
 neovim
 starship
@@ -33,5 +33,35 @@ ffmpeg
 openjdk
 "
 
-# パッケージのインストール
+# CLIパッケージのインストール
 brew install $PACKAGE_CLI
+
+##################
+# インストール（Cask）
+##################
+# インストールするGUIパッケージ
+PACKAGE_GUI="
+chatgpt
+raycast
+karabiner-elements
+alt-tab
+stats
+ghostty
+font-hackgen-nerd
+brave-browser
+firefox
+thunderbird
+transmission
+bitwarden
+marta
+deepl
+obsidian
+simple-comic
+utm
+mkvtoolnix
+google-drive
+"
+
+# GUIパッケージのインストール
+brew install $PACKAGE_GUI
+
