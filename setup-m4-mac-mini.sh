@@ -60,6 +60,7 @@ simple-comic
 utm
 mkvtoolnix
 google-drive
+appcleaner
 "
 
 # GUIパッケージのインストール
